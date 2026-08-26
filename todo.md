@@ -1,0 +1,7 @@
+- [x] Definir las secciones esenciales del currículum web.
+- [x] Incorporar un formato de CV con encabezado, experiencia, formación, habilidades e intereses.
+- [x] Mantener espacios claramente identificados para foto y datos reales.
+- [x] Verificar la presentación final en pantalla y guardar una versión actualizada.
+- [x] Redefinir el contenido como una página personal, sin estructura de currículum.
+- [x] Crear una composición simple con presentación, intereses y contacto.
+- [x] Revisar el diseño final en escritorio y móvil.

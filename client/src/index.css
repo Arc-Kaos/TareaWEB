@@ -1,12 +1,12 @@
 /*
- * Estilo: ficha académica minimalista. Sin animaciones; tinta azul, papel cálido y una columna indentada.
+ * Estilo: página personal editorial. Una composición simple, cálida, con texto indentado y ninguna animación.
  */
 @import "tailwindcss";
 
 :root {
   font-family: Arial, Helvetica, sans-serif;
-  color: #17365d;
-  background: #f8f6f0;
+  color: #183c5b;
+  background: #f7f3ea;
 }
 
 * {
@@ -16,147 +16,186 @@
 body {
   margin: 0;
   min-width: 320px;
-  background-color: #f8f6f0;
+  background-color: #f7f3ea;
   background-image: url("/manus-storage/perfil-paper-texture_2f8b6c0f.png");
   background-size: 420px 420px;
 }
 
 .profile-page {
   min-height: 100vh;
-  padding: 48px 24px;
+  padding: 56px 24px;
 }
 
-.profile-sheet {
-  width: min(100%, 760px);
-  margin-left: clamp(0px, 9vw, 140px);
-  padding: 32px 46px 28px;
-  background: #fffefa;
+.personal-site {
+  width: min(100%, 900px);
+  margin-left: clamp(0px, 8vw, 128px);
+  padding: 50px 52px 27px;
+  background: #fffdf8;
+  border-top: 5px solid #183c5b;
 }
 
-.profile-header {
+.profile-hero {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 26px;
+  gap: 38px;
 }
 
-.header-rule {
-  height: 1px;
-  flex: 1;
-  background: #cbd4df;
+.photo-frame {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 162px;
+  height: 162px;
+  border: 1px solid #8ba0ae;
+  background: #edf2f3;
+  color: #49657a;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.25;
+  text-align: center;
 }
 
-.document-label {
+.eyebrow,
+.section-number {
   margin: 0;
+  color: #4d6d7d;
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.13em;
 }
 
-.intro-section {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  padding-bottom: 23px;
-  border-bottom: 1px solid #cbd4df;
+.hero-copy {
+  max-width: 530px;
 }
 
-.profile-photo {
-  width: 118px;
-  height: 118px;
-  flex: 0 0 auto;
-  object-fit: cover;
-  border: 1px solid #b8c4d1;
-}
-
-.intro-copy h1,
-.content-section h2 {
+.hero-copy h1 {
+  margin: 9px 0 13px;
+  padding-left: 19px;
+  border-left: 6px solid #183c5b;
   font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(34px, 5vw, 49px);
+  line-height: 1.04;
 }
 
-.intro-copy h1 {
+.hero-text {
+  max-width: 500px;
   margin: 0;
-  font-size: clamp(30px, 5vw, 42px);
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-.name-block {
-  margin-bottom: 14px;
-  padding-left: 17px;
-  border-left: 6px solid #17365d;
-}
-
-.role {
-  margin: 6px 0 0;
-  color: #4b627e;
-  font-size: 16px;
+  color: #304d64;
+  font-size: 17px;
+  line-height: 1.65;
 }
 
 .photo-note {
-  margin: 14px 0 0;
-  color: #66788c;
+  margin: 12px 0 0;
+  color: #667f90;
   font-size: 13px;
   font-style: italic;
 }
 
-.content-section {
-  padding: 22px 0 0;
+.content-rule {
+  height: 1px;
+  margin: 43px 0 0;
+  background: #bdcbd1;
 }
 
-.content-section h2 {
+.profile-content {
+  max-width: 695px;
+}
+
+.profile-section {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 16px;
+  padding: 26px 0;
+  border-bottom: 1px solid #d2dcdf;
+}
+
+.section-number {
+  padding-top: 5px;
+}
+
+.profile-section h2 {
   margin: 0 0 9px;
-  font-size: 19px;
-  line-height: 1.2;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 23px;
+  line-height: 1.25;
 }
 
-.content-section p,
-.interests li {
-  max-width: 590px;
+.profile-section p,
+.interest-list li {
   margin-top: 0;
-  color: #263e59;
+  color: #304d64;
   font-size: 16px;
   line-height: 1.7;
 }
 
-.interests ul {
-  margin: 0;
-  padding-left: 36px;
+.profile-section p:last-child {
+  margin-bottom: 0;
 }
 
-.interests li {
-  padding-left: 8px;
+.interest-list {
+  margin: 0;
+  padding-left: 26px;
+}
+
+.interest-list li {
   margin-bottom: 7px;
+  padding-left: 7px;
+}
+
+.profile-section a {
+  color: #183c5b;
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .profile-footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 28px;
-  padding-top: 16px;
-  border-top: 1px solid #cbd4df;
-  color: #66788c;
-  font-size: 13px;
+  margin-top: 27px;
+  color: #667f90;
+  font-size: 12px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
   .profile-page {
     padding: 24px 16px;
   }
 
-  .profile-sheet {
+  .personal-site {
     margin-left: 0;
-    padding: 26px 24px 22px;
+    padding: 32px 25px 23px;
   }
 
-  .intro-section {
+  .profile-hero {
     align-items: flex-start;
     flex-direction: column;
-    gap: 18px;
+    gap: 23px;
   }
 
-  .profile-photo {
-    width: 106px;
-    height: 106px;
+  .photo-frame {
+    width: 135px;
+    height: 135px;
+  }
+
+  .content-rule {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 440px) {
+  .profile-section {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .section-number {
+    padding-top: 0;
+  }
+
+  .profile-footer {
+    gap: 10px;
+    flex-direction: column;
   }
 }
