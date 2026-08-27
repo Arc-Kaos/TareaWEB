@@ -8,3 +8,6 @@
 - [x] Incorporar la foto de perfil proporcionada por el usuario.
 - [x] Verificar la versión actualizada de la página.
 - [ ] Publicar el proyecto en un repositorio de GitHub y obtener su URL.
+- [x] Reorganizar la página personal con una jerarquía más clara.
+- [x] Incorporar una sección de proyectos personales.
+- [x] Aplicar tipografía negra y verificar el nuevo diseño.
