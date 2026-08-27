@@ -5,3 +5,6 @@
 - [x] Redefinir el contenido como una página personal, sin estructura de currículum.
 - [x] Crear una composición simple con presentación, intereses y contacto.
 - [x] Revisar el diseño final en escritorio y móvil.
+- [x] Incorporar la foto de perfil proporcionada por el usuario.
+- [x] Verificar la versión actualizada de la página.
+- [ ] Publicar el proyecto en un repositorio de GitHub y obtener su URL.

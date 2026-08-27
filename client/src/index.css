@@ -30,8 +30,8 @@ body {
   width: min(100%, 900px);
   margin-left: clamp(0px, 8vw, 128px);
   padding: 50px 52px 27px;
-  background: #fffdf8;
-  border-top: 5px solid #183c5b;
+  background: rgba(255, 253, 248, 0.72);
+  border-top: 1px solid #bdcbd1;
 }
 
 .profile-hero {
@@ -52,6 +52,7 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
   line-height: 1.25;
+  object-fit: cover;
   text-align: center;
 }
 
@@ -83,13 +84,6 @@ body {
   color: #304d64;
   font-size: 17px;
   line-height: 1.65;
-}
-
-.photo-note {
-  margin: 12px 0 0;
-  color: #667f90;
-  font-size: 13px;
-  font-style: italic;
 }
 
 .content-rule {
@@ -135,19 +129,13 @@ body {
 
 .interest-list {
   margin: 0;
-  padding-left: 26px;
+  padding-left: 44px;
+  border-left: 1px solid #bdcbd1;
 }
 
 .interest-list li {
-  margin-bottom: 7px;
-  padding-left: 7px;
-}
-
-.profile-section a {
-  color: #183c5b;
-  font-weight: 700;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+  margin-bottom: 10px;
+  padding-left: 5px;
 }
 
 .profile-footer {
@@ -197,5 +185,9 @@ body {
   .profile-footer {
     gap: 10px;
     flex-direction: column;
+  }
+
+  .interest-list {
+    padding-left: 28px;
   }
 }

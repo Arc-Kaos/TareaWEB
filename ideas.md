@@ -38,6 +38,6 @@
 
 Se empleará una foto real proporcionada por la persona. Mientras no esté disponible, la página mostrará un recuadro neutral identificado como “Foto de perfil”, sin generar ni simular el rostro de la persona.
 
-La página se presenta como una presentación personal plana, sin sombras, bandas superiores gruesas ni apariencia de currículum. La barra vertical azul tinta junto al nombre es el gesto visual principal; las secciones se separan con jerarquía tipográfica y reglas horizontales finas. La voz evita frases genéricas de currículum y se expresa en primera persona sobre intereses profesionales concretos.
+La página se presenta como una presentación personal plana, sin sombras, bandas superiores gruesas ni apariencia de currículum. La barra vertical azul tinta junto al encabezado es el gesto visual principal; las secciones se separan con jerarquía tipográfica y reglas horizontales finas. La línea superior debe ser tan discreta como los divisores de sección. La voz se expresa en primera persona y se elimina cualquier correo, nombre o llamada a la acción provisional hasta contar con datos reales.
 
 Cuando la persona no haya proporcionado una fotografía real, la columna lateral mostrará únicamente un recuadro neutral con la etiqueta “Foto de perfil”; no se usarán siluetas, avatares ni iconos de persona.

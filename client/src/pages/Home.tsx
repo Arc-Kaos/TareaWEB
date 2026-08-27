@@ -8,17 +8,18 @@ export default function Home() {
     <main className="profile-page">
       <article className="personal-site" aria-labelledby="profile-name">
         <header className="profile-hero">
-          <div className="photo-frame" role="img" aria-label="Espacio reservado para foto de perfil">
-            <span>Foto de<br />perfil</span>
-          </div>
+          <img
+            className="photo-frame"
+            src="/manus-storage/foto-perfil_e3d024f5.jpg"
+            alt="Foto de perfil de Tu nombre completo"
+          />
 
           <div className="hero-copy">
             <p className="eyebrow">PERFIL PERSONAL</p>
-            <h1 id="profile-name">Tu nombre completo</h1>
+            <h1 id="profile-name">Mi espacio personal</h1>
             <p className="hero-text">
               Me interesa aprender, crear y aportar ideas que conviertan la tecnología en soluciones útiles.
             </p>
-            <p className="photo-note">Reemplaza el recuadro por tu foto de perfil.</p>
           </div>
         </header>
 
@@ -48,19 +49,10 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="profile-section" aria-labelledby="contact-title">
-            <p className="section-number">03</p>
-            <div>
-              <h2 id="contact-title">Contacto</h2>
-              <p>
-                Para comunicarte conmigo, escribe a <a href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a>.
-              </p>
-            </div>
-          </section>
         </div>
 
         <footer className="profile-footer">
-          <span>Hecho como página personal</span>
+          <span>Página personal</span>
           <span>{currentYear}</span>
         </footer>
       </article>
