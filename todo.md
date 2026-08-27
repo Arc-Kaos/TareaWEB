@@ -8,6 +8,11 @@
 - [x] Incorporar la foto de perfil proporcionada por el usuario.
 - [x] Verificar la versión actualizada de la página.
 - [ ] Publicar el proyecto en un repositorio de GitHub y obtener su URL.
+- [x] Verificar la versión final antes de cargarla a GitHub.
+- [ ] Crear el repositorio y subir el código fuente.
+- [ ] Entregar la URL del repositorio publicado.
+- [x] Confirmar el acceso al repositorio TareaWEB proporcionado.
+- [ ] Cargar la versión final de la página personal en dicho repositorio.
 - [x] Reorganizar la página personal con una jerarquía más clara.
 - [x] Incorporar una sección de proyectos personales.
 - [x] Aplicar tipografía negra y verificar el nuevo diseño.
