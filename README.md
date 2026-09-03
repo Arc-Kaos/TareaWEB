@@ -1,13 +1,17 @@
-# TareaWEB — Página personal
+# TareaWEB — Páginas personales
 
-Este repositorio contiene el código fuente de una página web personal desarrollada con HTML, CSS y JavaScript.
+Este repositorio contiene las entregas de páginas web personales desarrolladas con HTML, CSS y JavaScript.
 
-## Sitio publicado
+## Sitios publicados
 
-La página se encuentra disponible públicamente en AWS S3:
+### Cris (Arc-Kaos)
+- **Ruta en repo:** Raíz / `client/`
+- **Enlace AWS S3:** [http://tareaweb-arc-kaos-413724559830.s3-website.us-east-2.amazonaws.com/](http://tareaweb-arc-kaos-413724559830.s3-website.us-east-2.amazonaws.com/)
 
-**http://tareaweb-arc-kaos-413724559830.s3-website.us-east-2.amazonaws.com/**
+### Santiago Tenorio
+- **Ruta en repo:** `mi-web-personal/`
+- **Enlace publicado:** https://santiago543-hue.github.io/web_personal/
 
 ## Contenido
 
-La página incluye una fotografía de perfil, una presentación personal, intereses profesionales y proyectos de aprendizaje.
+Cada entrega incluye fotografía de perfil, presentación personal, intereses profesionales y proyectos de aprendizaje.
